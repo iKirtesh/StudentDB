@@ -8,7 +8,7 @@ public class DBConnect {
     public static Connection getConn(){
         try{
             Class.forName("com.mysql.cj.jdbc.Driver");
-            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/student_db", "root", "Kirt$308");
+            conn = DriverManager.getConnection("jdbc:mysql://sql12.freesqldatabase.com:3306/sql12622167", "sql12622167", "MyeJc8AtaP");
         }
 
         catch (Exception e){
